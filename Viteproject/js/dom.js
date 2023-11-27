@@ -1,7 +1,8 @@
 const DOMselectors = {
-    name: document.querySelector("#name-card"),
-    type: document.querySelector("#type-card"),
-    region: document.querySelector("#region-type"),
-    image: document.querySelector("#image-card"),
+    Sinnoh: document.getElementById("btn"),
+    Kanto: document.getElementById("btn2"),
+    Hoenn: document.getElementById("btn3"),
+    Unova: document.getElementById("btn4"),
+    Alola: document.getElementById("btn5"),
 }
 export {DOMselectors};

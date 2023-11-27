@@ -207,4 +207,5 @@ const cards = [
         image: "https://marriland.com/wp-content/plugins/marriland-core/images/pokemon/sprites/home/full/lunala.png",
 
     },
-]
+];
+    export {cards};
