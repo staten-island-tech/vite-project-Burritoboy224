@@ -7,39 +7,39 @@ DOMselectors.all.AddEventListener("click",function() {
     inserts (cards);
 });
 
-DOMselectors.Sinnoh.addEventListener("click", function () {
+DOMselectors.form.addEventListener("click", function () {
     DOMselectors.menu.innerHTML = "";
-    const regions = cards.filter((region) => region.type.includes("Sinnoh"));
+    const regions = cards.filter((regions) => regions.region.includes("Sinnoh"));
     inserts(regions);
   });
 
-  DOMselectors.Sinnoh.addEventListener("click", function () {
+  DOMselectors.form.addEventListener("click", function () {
     DOMselectors.menu.innerHTML = "";
-    const regions = cards.filter((region) => region.type.includes("Kanto"));
+    const regions = cards.filter((regions) => regions.region.includes("Kanto"));
     inserts(regions);
   });
 
-  DOMselectors.Sinnoh.addEventListener("click", function () {
+  DOMselectors.form.addEventListener("click", function () {
     DOMselectors.menu.innerHTML = "";
-    const regions = cards.filter((region) => region.type.includes("Hoenn"));
+    const regions = cards.filter((regions) => regions.region.includes("Hoenn"));
     inserts(regions);
   });
 
-  DOMselectors.Sinnoh.addEventListener("click", function () {
+  DOMselectors.form.addEventListener("click", function () {
     DOMselectors.menu.innerHTML = "";
-    const regions = cards.filter((region) => region.type.includes("Unova"));
+    const regions = cards.filter((regions) => regions.region.includes("Unova"));
     inserts(regions);
   });
 
-  DOMselectors.Sinnoh.addEventListener("click", function () {
+  DOMselectors.form.addEventListener("click", function () {
     DOMselectors.menu.innerHTML = "";
-    const regions = cards.filter((region) => region.type.includes("Kalos"));
+    const regions = cards.filter((regions) => regions.region.includes("Kalos"));
     inserts(regions);
   });
 
-  DOMselectors.Sinnoh.addEventListener("click", function () {
+  DOMselectors.form.addEventListener("click", function () {
     DOMselectors.menu.innerHTML = "";
-    const regions = cards.filter((region) => region.type.includes("Alola"));
+    const includesRegions = cards.filter((regions) => regions.region.includes("Alola"));
     inserts(regions);
   });
 
