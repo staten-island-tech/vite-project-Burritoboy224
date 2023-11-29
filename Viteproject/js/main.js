@@ -7,38 +7,38 @@ import { cards } from "./cards";
 
 
   DOMselectors.form.addEventListener("click", function () {
-    DOMselectors.menu.innerHTML = "";
+    DOMselectors.card.innerHTML = "";
     const regions = cards.filter((regions) => regions.region.includes("Sinnoh"));
     inserts(regions);
   });
 
   DOMselectors.form.addEventListener("click", function () {
-    DOMselectors.menu.innerHTML = "";
+    DOMselectors.card.innerHTML = "";
     const regions = cards.filter((regions) => regions.region.includes("Kanto"));
     inserts(regions);
   });
 
   DOMselectors.form.addEventListener("click", function () {
-    DOMselectors.menu.innerHTML = "";
+    DOMselectors.card.innerHTML = "";
     const regions = cards.filter((regions) => regions.region.includes("Hoenn"));
     inserts(regions);
   });
 
   DOMselectors.form.addEventListener("click", function () {
-    DOMselectors.menu.innerHTML = "";
+    DOMselectors.card.innerHTML = "";
     const regions = cards.filter((regions) => regions.region.includes("Unova"));
     inserts(regions);
   });
 
   DOMselectors.form.addEventListener("click", function () {
-    DOMselectors.menu.innerHTML = "";
+    DOMselectors.card.innerHTML = "";
     const regions = cards.filter((regions) => regions.region.includes("Kalos"));
     inserts(regions);
   });
 
   DOMselectors.form.addEventListener("click", function () {
-    DOMselectors.menu.innerHTML = "";
-    const includesRegions = cards.filter((regions) => regions.region.includes("Alola"));
+    DOMselectors.card.innerHTML = "";
+    const regions = cards.filter((regions) => regions.region.includes("Alola"));
     inserts(regions);
   });
 
@@ -56,17 +56,13 @@ document.querySelector("#changer-button").addEventListener("click", function() {
 });
 
 //display cards
-function insertCards() {
-  cards.forEach((card) => DOMselectors.menu.insertAdjacentHTML("beforeend", 
+function insertCards(cards) {
+  cards.forEach((card) => DOMselectors.cards.insertAdjacentHTML("beforeend", 
   `<div class="card" id="all">
   <h2 class="name">${card.name}</h2>
-  <img src="${card.image}" alt="${card.name}" class="image">
+  <img src="${card.image}" alt="" class="image">
   <h3 class="text">${card.type}</h3>
 </div>`
 )
 );
 }
-DOMselectors.All.addEventListener("click", function () {
-  DOMselectors.menu.innerHTML = ' ';
-  insertCards();
-});
