@@ -92,32 +92,32 @@ DOMSelectors.all.addEventListener("click", function () {
   display();
 });
 
-DOMSelectors.navy.addEventListener("click", function () {
+DOMSelectors.Sinnoh.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   SinnohRegion();
 });
 
-DOMSelectors.army.addEventListener("click", function () {
+DOMSelectors.Unova.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   UnovaRegion();
 });
 
-DOMSelectors.air.addEventListener("click", function () {
+DOMSelectors.Kanto.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   KantoRegion();
 });
 
-DOMSelectors.weapon.addEventListener("click", function () {
+DOMSelectors.Hoenn.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   HoennRegion();
 });
 
-DOMSelectors.kalos.addEventListener("click", function () {
+DOMSelectors.Kalos.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   KalosRegion();
 });
 
-DOMSelectors.alola.addEventListener("click", function () {
+DOMSelectors.Alola.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   AlolaRegion();
 });
