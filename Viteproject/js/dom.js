@@ -1,11 +1,11 @@
 const DOMSelectors = {
     all: document.querySelector("#all-button"),
-    navy: document.querySelector("#Sinnoh-button"),
-    army: document.querySelector("#Unova-button"),
-    air: document.querySelector("#Kanto-button"),
-    weapon: document.querySelector("#Hoenn-button"),
-    kalos: document.querySelector("#Kalos-button"),
-    alola: document.querySelector("#Alola-button"),
+    Sinnoh: document.querySelector("#Sinnoh-button"),
+    Unova: document.querySelector("#Unova-button"),
+    Kanto: document.querySelector("#Kanto-button"),
+    Hoenn: document.querySelector("#Hoenn-button"),
+    Kalos: document.querySelector("#Kalos-button"),
+    Alola: document.querySelector("#Alola-button"),
     cards: document.querySelector(".cards"),
 }
 
