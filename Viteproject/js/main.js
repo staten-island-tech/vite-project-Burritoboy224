@@ -1,71 +1,126 @@
-import "../style.css";
-import {DOMselectors} from './dom'
-import {cards} from "./cards";
 
+import { cards } from "./cards";
+import { DOMSelectors } from "./dom";
 
-//display cards
-function insertCard(cards) {
-  document.querySelector(".cards").insertAdjacentHTML(
-    "beforeend",
-    `<div class="card">
-      <h2 class = "text">${cards.name}</h2>
-      <img src=${cards.image} alt="" class="card-img">
-      <h2 class = "info"> type: ${cards.type} <br> region: ${cards.region}</h2>
-    </div>`
+ 
+
+function display() {
+  cards.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend", 
+  `<div class="card" id="all">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info"> type: ${pokemon.type}</h2>
+</div>
+  `)
   );
 }
-DOMselectors.all.addEventListener("click", function () {
-  DOMselectors.cards.innerHTML = '';
-  insertCard();
+
+function SinnohRegion() {
+  const find = cards.filter((pokemon) => pokemon.region.includes("Sinnoh"));
+  find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="Sinnoh">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info">${pokemon.type}</h2>
+</div>
+  `)
+  );
+}
+
+function UnovaRegion() {
+  const find = cards.filter((pokemon) => pokemon.region.includes("Unova"));
+  find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="Unova">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info">${pokemon.type}</h2>
+</div>
+  `)
+  );
+}
+
+function KantoRegion() {
+  const find = cards.filter((pokemon) => pokemon.region.includes("Kanto"));
+  find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="Kanto">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info">${pokemon.type}</h2>
+</div>
+  `)
+  );
+}
+
+function HoennRegion() {
+  const find = cards.filter((pokemon) => pokemon.region.includes("Hoenn"));
+  find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="Hoenn">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info">${pokemon.type}</h2>
+</div>
+  `)
+  );
+}
+
+function KalosRegion() {
+  const find = cards.filter((pokemon) => pokemon.region.includes("Kalos"));
+  find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="Kalos">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info">${pokemon.type}</h2>
+</div>
+  `)
+  );
+}
+
+function AlolaRegion() {
+  const find = cards.filter((pokemon) => pokemon.region.includes("Alola"));
+  find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="Alola">
+  <h2 class = "text">${pokemon.name}</h2>
+  <img src=${pokemon.image} alt="" class="card-img">
+  <h2 class = "info">${pokemon.type}</h2>
+</div>
+  `)
+  );
+}
+
+DOMSelectors.all.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  display();
+});
+
+DOMSelectors.navy.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  SinnohRegion();
+});
+
+DOMSelectors.army.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  UnovaRegion();
+});
+
+DOMSelectors.air.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  KantoRegion();
+});
+
+DOMSelectors.weapon.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  HoennRegion();
+});
+
+DOMSelectors.kalos.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  KalosRegion();
+});
+
+DOMSelectors.alola.addEventListener("click", function () {
+  DOMSelectors.cards.innerHTML = '';
+  AlolaRegion();
 });
 
 
-  // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.card.innerHTML = "";
-  //   const regions = cards.filter((regions) => regions.region.includes("Sinnoh"));
-  //   inserts(regions);
-  // });
-
-  // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.card.innerHTML = "";
-  //   const regions = cards.filter((regions) => regions.region.includes("Kanto"));
-  //   inserts(regions);
-  // });
-
-  // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.card.innerHTML = "";
-  //   const regions = cards.filter((regions) => regions.region.includes("Hoenn"));
-  //   inserts(regions);
-  // });
-
-  // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.card.innerHTML = "";
-  //   const regions = cards.filter((regions) => regions.region.includes("Unova"));
-  //   inserts(regions);
-  // });
-
-  // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.card.innerHTML = "";
-  //   const regions = cards.filter((regions) => regions.region.includes("Kalos"));
-  //   inserts(regions);
-  // });
-
-  // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.card.innerHTML = "";
-  //   const regions = cards.filter((regions) => regions.region.includes("Alola"));
-  //   inserts(regions);
-  // });
-
-//change theme
-
-// document.querySelector("#changer-button").addEventListener("click", function() {
-//   if(document.body.classList.contains("light")) {
-//     document.body.classList.add("dark");
-//     document.body.classList.remove("light");
-//   }
-//   else {
-//     document.body.classList.add("light");
-//     document.body.classList.remove("dark");
-//   }
-// });
-
+display(); 
