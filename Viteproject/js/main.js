@@ -3,7 +3,7 @@ import { cards } from "./cards";
 import { DOMSelectors } from "./dom";
 
  
-
+//Prints out the information from array
 function display() {
   cards.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend", 
   `<div class="card" id="all">
@@ -14,7 +14,7 @@ function display() {
   `)
   );
 }
-
+//finds the correct region and filter it
 function SinnohRegion() {
   const find = cards.filter((pokemon) => pokemon.region.includes("Sinnoh"));
   find.forEach((pokemon) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
@@ -86,7 +86,7 @@ function AlolaRegion() {
   `)
   );
 }
-
+//reset or clear fields
 DOMSelectors.all.addEventListener("click", function () {
   DOMSelectors.cards.innerHTML = '';
   display();
