@@ -19,3 +19,12 @@ html,
   --secondary: var(--light-red);
   --hover: var(--crimson);
 }
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

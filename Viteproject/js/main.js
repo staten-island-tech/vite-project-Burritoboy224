@@ -1,9 +1,23 @@
 import "../style.css";
 import {DOMselectors} from './dom'
-import { cards } from "./cards";
+import {cards} from "./cards";
 
 
-
+//display cards
+function insertCard(cards) {
+  document.querySelector(".cards").insertAdjacentHTML(
+    "beforeend",
+    `<div class="card">
+      <h2 class = "text">${cards.name}</h2>
+      <img src=${cards.image} alt="" class="card-img">
+      <h2 class = "info"> type: ${cards.type} <br> region: ${cards.region}</h2>
+    </div>`
+  );
+}
+DOMselectors.all.addEventListener("click", function () {
+  DOMselectors.cards.innerHTML = '';
+  insertCard();
+});
 
 
   // DOMselectors.form.addEventListener("click", function () {
@@ -55,14 +69,3 @@ import { cards } from "./cards";
 //   }
 // });
 
-//display cards
-function displayCard(cardswhat) {
-  DOMselectors.cards.insertAdjacentHTML("beforeend",
-  `<div class="cardsz" id="everyCard">
-  <img src="${cards.image}" alt="${cards.name}" class="image">
-  <h4 class="card-title">${cards.name}</h4>
-  <h4 class="card-title">${cards.type}</h4>
-  <h4 class="card-title">${cards.region}</h4>
-  </div>
-  ` )
-};
