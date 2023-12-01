@@ -7,38 +7,38 @@ import { cards } from "./cards";
 
 
   // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.menu.innerHTML = "";
+  //   DOMselectors.card.innerHTML = "";
   //   const regions = cards.filter((regions) => regions.region.includes("Sinnoh"));
   //   inserts(regions);
   // });
 
   // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.menu.innerHTML = "";
+  //   DOMselectors.card.innerHTML = "";
   //   const regions = cards.filter((regions) => regions.region.includes("Kanto"));
   //   inserts(regions);
   // });
 
   // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.menu.innerHTML = "";
+  //   DOMselectors.card.innerHTML = "";
   //   const regions = cards.filter((regions) => regions.region.includes("Hoenn"));
   //   inserts(regions);
   // });
 
   // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.menu.innerHTML = "";
+  //   DOMselectors.card.innerHTML = "";
   //   const regions = cards.filter((regions) => regions.region.includes("Unova"));
   //   inserts(regions);
   // });
 
   // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.menu.innerHTML = "";
+  //   DOMselectors.card.innerHTML = "";
   //   const regions = cards.filter((regions) => regions.region.includes("Kalos"));
   //   inserts(regions);
   // });
 
   // DOMselectors.form.addEventListener("click", function () {
-  //   DOMselectors.menu.innerHTML = "";
-  //   const includesRegions = cards.filter((regions) => regions.region.includes("Alola"));
+  //   DOMselectors.card.innerHTML = "";
+  //   const regions = cards.filter((regions) => regions.region.includes("Alola"));
   //   inserts(regions);
   // });
 
@@ -56,7 +56,7 @@ import { cards } from "./cards";
 // });
 
 //display cards
-const makeCard = function(cardswhat) {
+function displayCard(cardswhat) {
   DOMselectors.cards.insertAdjacentHTML("beforeend",
   `<div class="cardsz" id="everyCard">
   <img src="${cards.image}" alt="${cards.name}" class="image">
