@@ -3,7 +3,7 @@ const cards = [
         name: "Gible",
         type: "Dragon",
         region: "Sinnoh",
-        image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGYAZgMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAwQFAQIG/9oACAEBAAAAAPpQEXjksgcq1K3jjYtiplxueeWN9UxOyefLi1ryo/nZa3iz31Lo2xVxIZuxWO+90I8zKnIe/T+xl4OhHJ4j5uXiPBjt0DvJb2p7Maj4jl5zuhtBR+eTc7uXQco2aWZr3wAB/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/2gAKAgIQAxAAAAAC5sXOrLNYJc7lssubhefYLM9evmlxtReXp7eTWJc7Cas1zzsAAP/EADAQAAIBAgQDBwQCAwEAAAAAAAECAwARBBIhMRMgQRAiMlFSYXEFFIGhMJEzkrLR/9oACAEBAAE/AP4GngXeVB+a+6w/r/Rr7zD+o/6mo5Y5b5GvbmJAFybCpMbCm13PttTY6Y7WT4p5Hk8bE/JvV6vV7ak1g4jHDdvE+p5Z8XHFcL33/QqSaSU3dr+3QdpNqLVrWFi406KfCO83bjZpIIgyblrXp8RM1y0zn81AJ2GcyuF6DMdaaw0FbC5oFj4V/Jqz+of1QVybd01Yg2IINYfCPOA5OWP9tUUEUIIRbX37ZolmjZG2NTYaWOUJKBl3uNmFFzbSpi6RmQm4V0uBpoTUQWYSuEKqZSEvralkOx0PYo76/BqRA6FTWDn40YBsGUDlxWFGJA77Iw2IqbDYyA66i9g17iuMwuroD0NLJGwVVsthYLa1qZQ3sfOszJoR/wCUhtcnc08tl9zoKwUg+6jUHoRzTR8SNl67j5FYiHDQ247jLkuwHjLVHKEjnQJmdwAvtTqIgnDfOMgL3OxtRYd0efSuGvlb40ooLnc/k0O5quhGo+RUT8SNH81B5CQASdgLmsZ9QVFCQMCx3fyo3dvUSf7NJCI13HuafJYKrC3UihZRYUzdhF9POsC90kT0t/1ySiQoRGwVvM1NgMSBYR5vg0gk+4jSVLFAfmpHyWYWzA92iw2OmltRbSuID1v8a0LnU9isFJvck7VDiJoXbI1swBNJ9RkHjRTUb50R7EZgDY8mPhkWcTrt1NF7m97mixNFsuY+37q1hbsbbTfcVoLmsJg2lIeUWj6D1c02Awz3b/H1JGgqQqHYI2dejWy3pQZTkVGJIOgF6s66OhVvcW7AjSMqJ4nNhUOBhiIY99vM85AIINH6bhCwOQ7WteosPBBfhRhb19SDsiAKMuYfJNJDM7MqRsSDY1g8HwTnexf+QADl/8QAHxEBAAEFAAIDAAAAAAAAAAAAAQACEBESICExAzBB/9oACAECAQE/AL6s1iBbEDhsMzD1arHIv50viHyYlNWxmzjjWl9kpNXxF+r/xAAhEQEAAgICAgIDAAAAAAAAAAABAAIQERIxAyAhIjBBUf/aAAgBAwEBPwDPInOCuFjbJ8wNYScUf7HuW6nj2en7lqVDdsjsHND7Ev4S/b8y9OFtYN+he50y9m4bIH4v/9k=",
+        image: "https://marriland.com/wp-content/plugins/marriland-core/images/pokemon/sprites/home/full/gible.png",
 
     },
 
@@ -19,7 +19,7 @@ const cards = [
         name: "Torterra",
         type: "Grass/Ground",
         region: "Sinnoh",
-        image: "https://th.bing.com/th?id=OSK.0089dab67981cb334427b2facd5e2a1c&w=102&h=102&o=6&pid=SANGAM",
+        image: "https://marriland.com/wp-content/plugins/marriland-core/images/pokemon/sprites/home/full/torterra.png",
 
     },
 
@@ -27,7 +27,7 @@ const cards = [
         name: "Lucario",
         type: "Fighting/Steel",
         region: "Sinnoh",
-        image: "https://th.bing.com/th/id/R.5ba1c3ed2e8ef958b4a450c8afece01a?rik=A%2fbDfANCqeWm6w&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2fnintendo%2fimages%2fe%2fe2%2fLucario_Artwork_-_Diamond_and_Pearl.png%2frevision%2flatest%3fcb%3d20120325190800%26path-prefix%3den&ehk=wb6Hmbgwzxn5M%2fbhvWUd45JDRQjXR8TltE%2bTUCRB%2bxk%3d&risl=&pid=ImgRaw&r=0",
+        image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/e/ec/448.png",
 
     },
 
@@ -75,7 +75,7 @@ const cards = [
         name: "Charizard",
         type: "Fire/Flying",
         region: "Kanto",
-        image: "https://th.bing.com/th/id/R.b86b5e88677359056eee5ea605f696a0?rik=Krg5ht11wshHwQ&riu=http%3a%2f%2fwallsdesk.com%2fwp-content%2fuploads%2f2016%2f09%2fCharizard-Wallpapers.png&ehk=yUBePrvcBq%2b47a8ft3A%2bmlJIdmporUeADn8eKGOXDr0%3d&risl=&pid=ImgRaw&r=0",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png",
 
     },
 
@@ -148,7 +148,7 @@ const cards = [
         name: "Aggron",
         type: "Steel/Rock",
         region: "Kalos",
-        image: "https://th.bing.com/th/id/R.298b6953c63b8bafa9c7b13dec93155e?rik=cECfwVuEgog%2blQ&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20140510073621%2fpokemon%2fimages%2fd%2fd8%2f306Aggron_AG_anime.png&ehk=juRTr2Ia75aSe2iWRygVyEWb1qEXyGeNIfll0il%2fltc%3d&risl=&pid=ImgRaw&r=0",
+        image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/306.png",
 
     },
 
@@ -164,7 +164,7 @@ const cards = [
         name: "Tyrunt",
         type: "Rock/Dragon",
         region: "Kalos",
-        image: "https://th.bing.com/th/id/R.c3280a2f64157fe38846a5062d937dd6?rik=OeNM1pyjbWU3KA&riu=http%3a%2f%2fmedia-cerulean.cursecdn.com%2fattachments%2f5%2f940%2ftyrunt.png&ehk=ndZNPDem8P3Jg4ouq7i6ey2SlMXyLubz5KnxWaqz1bQ%3d&risl=&pid=ImgRaw&r=0",
+        image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/696.png",
 
     },
 
@@ -196,7 +196,7 @@ const cards = [
         name: "Silvally",
         type: "Normal",
         region: "Alola",
-        image: "https://th.bing.com/th/id/R.d5e4fc446aed3cc3d2845c9c20156923?rik=0rFIykCQszP7Gw&riu=http%3a%2f%2fvignette4.wikia.nocookie.net%2fes.pokemon%2fimages%2f3%2f3b%2fSilvally.png%2frevision%2flatest%2fscale-to-width-down%2f2000%3fcb%3d20161014153710&ehk=r2ARpHRkJsDs%2byY7u%2b7asX5oQppfCnXncn%2fVfG8bCCI%3d&risl=&pid=ImgRaw&r=0",
+        image: "https://www.serebii.net/swordshield/pokemon/773.png",
 
     },
 

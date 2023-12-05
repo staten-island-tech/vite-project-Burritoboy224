@@ -1,4 +1,4 @@
-
+import "./style.css";
 import { cards } from "./cards";
 import { DOMSelectors } from "./dom";
 

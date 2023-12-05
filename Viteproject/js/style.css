@@ -1,0 +1,55 @@
+body,
+html,
+
+
+
+.title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card-img {
+  width: 320x;
+  height: 400px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+
+.ribbon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 5px solid;
+  border-radius: 75px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+:root {
+  --red:#cf160f;
+  --light-blue: rgb(76, 118, 174);
+  --dark-blue: rgb(40, 6, 228);
+  --dark-red: #75161f;
+}
+
+.red {
+  --primary:  var(--red);
+  --secondary: var(--dark-red);
+}
+
+.blue {
+  --primary: var(--light-blue);
+  --secondary:var(--dark-blue)
+}
