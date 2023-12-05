@@ -21,10 +21,20 @@ html,
 }
 
 
+.card-img {
+  width: 320x;
+  height: 400px;
+  margin: auto;
+}
+
 .cards {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 100%;
-  flex-wrap: wrap;
+  width: 50vh;
+  height: 70vh;
+  border-style: solid;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border-style: solid ridge;
   justify-content: space-around;
+  flex-direction: column;
+  display: flex;
 }
