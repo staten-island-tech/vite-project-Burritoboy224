@@ -6,6 +6,7 @@ const DOMSelectors = {
     Hoenn: document.querySelector("#Hoenn-button"),
     Kalos: document.querySelector("#Kalos-button"),
     Alola: document.querySelector("#Alola-button"),
+    Theme: document.querySelector("Theme-button"),
     cards: document.querySelector(".cards"),
 }
 

@@ -122,5 +122,7 @@ DOMSelectors.Alola.addEventListener("click", function () {
   AlolaRegion();
 });
 
+//theme changer bruh i give up
+document.querySelector
 
 display(); 
