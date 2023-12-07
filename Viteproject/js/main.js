@@ -123,6 +123,16 @@ DOMSelectors.Alola.addEventListener("click", function () {
 });
 
 //theme changer bruh i give up
-document.querySelector
+document.querySelector("#Theme-button").addEventListener("click", function () {
+  if (document.body.classList.contains("light")) {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  }
+  else {
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
+  }
+}
+);
 
 display(); 

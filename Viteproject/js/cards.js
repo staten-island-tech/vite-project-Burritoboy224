@@ -67,7 +67,7 @@ const cards = [
         name: "Moltres",
         type: "Fire/Flying",
         region: "Kanto",
-        image: "https://th.bing.com/th/id/OIP.V3Sed8ZjGy5UnE2LFWsclAHaFr?rs=1&pid=ImgDetMain",
+        image: "https://projectpokemon.org/home/uploads/monthly_2019_06/large.moltres.png.ddd89eb27fcb953089b1896d65968ff1.png",
 
     },
 

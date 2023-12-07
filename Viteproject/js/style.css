@@ -37,7 +37,20 @@ html,
 }
 
 
-:root {
+.light {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/3/2022/12/Reshiram-dcefe42.jpg?resize=960%2C503)
+  };
+
+.dark {
+    background-image: url(https://wallpapers.com/images/featured/zekrom-6g18z203e23asyjd.jpg)
+    };
+
+
+    /* :root {
   --red:#cf160f;
   --light-blue: rgb(76, 118, 174);
   --dark-blue: rgb(40, 6, 228);
@@ -52,4 +65,4 @@ html,
 .blue {
   --primary: var(--light-blue);
   --secondary:var(--dark-blue)
-}
+} */
